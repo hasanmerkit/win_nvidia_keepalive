@@ -5,6 +5,9 @@ context (so the GPU/driver stay active) and just sleeps - no kernels, no math. G
 stays at **0%**. Uses the installed `nvcuda.dll` directly, so **no CUDA Toolkit / `nvcc`
 needed**; builds with the bundled [TCC](https://bellard.org/tcc/) compiler.
 
+<img width="537" height="474" alt="image" src="https://github.com/user-attachments/assets/e1d8d273-2ca3-45c7-a43c-e7f2c77cb6f1" />
+
+
 ## ⚠️ Vibe-coding warning
 
 **This project was vibe-coded** - written quickly with an AI assistant, no real review or
