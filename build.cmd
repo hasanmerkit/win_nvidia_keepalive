@@ -1,0 +1,3 @@
+@echo off
+echo Building...
+"%~dp0tcc\tcc.exe" "%~dp0gpu_keepalive.c" -o "%~dp0gpu_keepalive.exe" -luser32 -Wl,-subsystem=windows
